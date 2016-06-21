@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="description" content="Utilizing an API to render GIFs">
+		<meta name="keywords" content="HTML,CSS,JQuery,AJAX,JSON,APIs">
+		<link rel="stylesheet" type="text/css" href="animals.css">
+		<title>Animaltastic</title>
+		
+		
+	</head>
+	<body>
+		<div class="container">
+			<h1>Welcome to Animaltastic</h1>
+			<form id="animal-form">
+				<label for="animal-input">Add an animal</label>
+			    <input type="text" id="animal-input">
+			    <input id="addAnimal" type="submit" value="Submit">
+			</form>
+			<br>
+			<div id="buttonsView">
+
+			</div>
+			<br>
+			<p>You can add more buttons as you please!</p>
+			<p>Click an animal button to get a new set of gifs</p>
+			<p>Beware some of the gifs may be rated pg!</p>
+			
+			<div id="animalsView">
+				
+			</div>
+		</div>
+		<script type = "text/javascript" src = "https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<script type ="text/javascript" src="animals.js"></script>
+	</body>
+</html>
